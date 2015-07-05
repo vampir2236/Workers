@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Работники</string>
+    <string name="specialties_title">Специальности</string>
+    <string name="sync_title">Работники</string>
+    <string name="loading_title">Загрузка...</string>
+    <string name="default_specialty_name">Программист</string>
+    <string name="workers_title">Работники</string>
+    <string name="sync_error">Ошибка синхронизации данных</string>
+    <string name="age_title">Возраст:</string>
+    <string name="title_activity_worker">Работник</string>
+    <string name="birthday_title">День рождения:</string>
+    <string name="default_lastname">Иванов</string>
+    <string name="default_firstname">Иван</string>
+    <string name="default_specialty">Программист</string>
+</resources>

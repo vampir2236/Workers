@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Workers</string>
+    <string name="specialties_title">Specialties</string>
+    <string name="sync_title">Workers</string>
+    <string name="loading_title">loading...</string>
+    <string name="default_specialty_name">Programmer</string>
+    <string name="workers_title">Workers</string>
+    <string name="sync_error">Synchronization error</string>
+    <string name="age_title">Age:</string>
+    <string name="title_activity_worker">Worker</string>
+    <string name="birthday_title">Birthday:</string>
+    <string name="default_birthday">21.12.1985</string>
+    <string name="default_lastname">Ivanov</string>
+    <string name="default_firstname">Ivan</string>
+    <string name="default_specialty">Programmer</string>
+    <string name="default_age">29</string>
+    <string name="default_name">Ivanov Ivan</string>
+</resources>

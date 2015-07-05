@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/item_background_pressed"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/avatar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/age_title"
+        android:id="@+id/ageTitle"
+        android:padding="5dp"
+        android:textColor="@drawable/item_text_pressed"
+        android:layout_below="@+id/lastname"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_toEndOf="@+id/avatar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/default_age"
+        android:id="@+id/age"
+        android:padding="5dp"
+        android:textColor="@drawable/item_text_pressed"
+        android:layout_alignTop="@+id/ageTitle"
+        android:layout_toRightOf="@+id/ageTitle"
+        android:layout_toEndOf="@+id/ageTitle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/default_lastname"
+        android:id="@+id/lastname"
+        android:ellipsize="end"
+        android:textColor="@drawable/item_text_pressed"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_toEndOf="@+id/avatar"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/default_firstname"
+        android:id="@+id/firstname"
+        android:ellipsize="end"
+        android:textColor="@drawable/item_text_pressed"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/lastname"
+        android:layout_toEndOf="@+id/lastname" />
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/item_background_pressed"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/specialty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_specialty"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:padding="15dp"
+        android:ellipsize="end"
+        android:textColor="@drawable/item_text_pressed"/>
+
+</LinearLayout>

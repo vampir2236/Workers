@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vampir2236.workers" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.activeandroid.app.Application"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_workers"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ui.SplashActivity"
+            android:label="@string/sync_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.SpecialtiesActivity"
+            android:label="@string/specialties_title" />
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="workers.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="1" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.vampir2236.workers.models.Specialty com.vampir2236.workers.models.Worker com.vampir2236.workers.models.WorkerSpecialty" />
+
+        <activity
+            android:name=".ui.WorkersActivity"
+            android:label="@string/workers_title" >
+        </activity>
+        <activity
+            android:name=".ui.WorkerDetailActivity"
+            android:label="@string/title_activity_worker" >
+        </activity>
+    </application>
+
+</manifest>
